@@ -1,0 +1,61 @@
+
+
+/* Folha de Estilo */
+
+html {
+	font-size:16 px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Banner */
+.banner {
+    height: 18rem;
+    background-image: url('http://127.0.0.1:81/pricampos/www/galeria/banner/banner-main.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: center;
+    overflow: hidden;
+}
+
+.social-networks {
+    margin-top: 3rem;
+    margin-left: 4rem;
+    list-style: none;
+    text-decoration: none;
+}
+
+.icon-network {
+    display: inline;
+    line-height: 20px;
+}
+
+#facebook, #linkedin, #github {
+    color: #20272D;
+    cursor: pointer;
+}
+
+#facebook:hover, #linkedin:hover, #github:hover {
+    color: cadetblue;
+}
+
+@media (max-width: 870px) {
+    .banner {
+        position: relative;
+        z-index: 0;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+    }
+   .social-networks {
+        margin-top: 2rem;
+        margin-left: 0;
+    }
+}

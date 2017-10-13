@@ -1,0 +1,223 @@
+/* Folha de Estilo */
+
+html {
+	font-size:16 px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*Search Box */
+#search-descktop {
+    width: 40%;
+}
+
+.form-search, .form-search-resp {
+    border: solid 1px #9FA4B2;
+    width: auto;
+    padding: 5px;
+    border-radius: 20px;
+    float: right;
+    margin-right: 0.4rem;
+    -webkit-box-shadow: 0px 0px 3px 0.2px #9FA4B2;
+            box-shadow: 0px 0px 3px 0.2px #9FA4B2;
+}
+
+.box-search, .btn-search, .btn-search-resp, .box-search-resp {
+    border-color: transparent;
+    background-color: transparent;
+    outline: none;
+    font-style: italic;
+    color: #9FA4B2;
+    font-size: 90%;
+}
+
+.btn-search, .box-search-resp {
+    cursor: pointer;
+}
+
+::-webkit-input-placeholder {
+   color: #9FA4B2;
+}
+
+/* Menu */
+.menu {
+    font-family: 'Arial';
+    background-color: #20272D;
+    width: 100%;
+}
+
+.ul-menu {
+    list-style: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+.li-menu {
+    width: 15%;
+}
+
+.li-menu:hover .ul-submenu {
+    visibility: visible;
+}
+
+.a-menu {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    color: #E8DFDF;
+    background-color: #20272D;
+}
+
+.a-menu:hover, .a-submenu:hover {
+    background-color: #191E22;
+    color: #fff;
+}
+
+.ul-submenu {
+    list-style: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-align: center;
+    visibility: hidden;
+    position: absolute;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    left:-99999;
+    width: 15%;
+}
+
+.li-submenu {
+    width: 100%;   
+    float: none;
+}
+
+.a-submenu {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    color: #E8DFDF;
+    background-color: #20272D;
+    border-bottom: solid 0.7px #2F3D4F;
+}
+
+#front-end {
+    border-top: solid 0.7px #2F3D4F;
+}
+
+/* Menu + Search Box Responsive */
+#icon-resp {
+    display: none;    
+}
+
+#btn-menu-resp {
+    display: none;
+}
+
+.btn-menu-resp {
+    padding: 10px;
+    color: #fff;
+    font-family: "Arial";
+    font-size: 200%;
+    cursor: pointer;
+    height: 50px;
+    text-align: left;
+}
+
+.div-menu-resp {
+    display: none;
+}
+
+@media(max-width: 870px){
+/* Icons*/
+    #icon-resp {
+        display: inline;
+    }
+    #icon-descktop {
+        display: none;
+    }
+/*  Search Box Responsive */
+    #search-descktop {
+        border: none;
+    }
+    .form-search {
+        display: none;
+    }
+/*   Responsive Menu */
+    .div-menu-resp {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        background-color: #20272D;
+        width: 100%;
+        height: 50px;
+    }
+    #btn-menu-resp:checked ~.menu{
+        margin-left: 0;
+    }
+    .menu {
+        z-index: 1;
+        margin-left: -100%;
+        -webkit-transition: all .4s;
+        -o-transition: all .4s;
+        transition: all .4s;
+        background-color: transparent;
+        position: absolute;
+    }  
+    .ul-menu {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+    .li-menu {
+        width: 100%;
+        border-bottom: 1px solid #323A40;
+    }
+    #home {
+        border-top: 1px solid #323A40;
+    }
+    .li-menu:hover .ul-submenu {
+        height: auto;
+        max-height: 200px;
+    }
+    .a-menu {
+        text-align: left;
+    }
+    .ul-submenu {
+        -webkit-transition: all .4s;
+        -o-transition: all .4s;
+        transition: all .4s;
+        width: 100%;
+        position: static;
+        overflow: hidden;
+        max-height: 0;
+        border-left: 30px solid #20272D;
+    }
+    .a-submenu {
+        background-color: #323A40;  
+        text-align: left;
+    }
+}
+
