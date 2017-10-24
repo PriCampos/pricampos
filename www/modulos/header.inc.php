@@ -70,6 +70,8 @@
 <link rel="stylesheet" type="text/css" href="templates/menu.tpl.css">
 <link rel="preload" href="templates/banner.tpl.css" as="style">
 <link rel="stylesheet" type="text/css" href="templates/banner.tpl.css">
+<link rel="preload" href="templates/about-me.tpl.css" as="style">
+<link rel="stylesheet" type="text/css" href="templates/about-me.tpl.css">
 <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Raleway:100,200,300,400,500,600,700,800,900" rel="stylesheet">
