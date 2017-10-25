@@ -3,33 +3,33 @@
     <head>
         <?php
             //Page Information
-            $header_title = "pricampos.blog.br - compartilhando estudos e experiências";
-            $header_description ="blog sobre desenvolvimento e qualidade de software";
-            $header_keywords = "pricampos.blog.br, priscila campos, priscila de oliveira campos, pri campos, blog";
-            $header_canonical = '"http://www.pricampos.blog.br/"';
+            $head_title = "pricampos.blog.br - compartilhando estudos e experiências";
+            $head_description ="blog sobre desenvolvimento e qualidade de software";
+            $head_keywords = "pricampos.blog.br, priscila campos, priscila de oliveira campos, pri campos, blog";
+            $head_canonical = '"http://www.pricampos.blog.br/"';
 
             //Facebook meta tag
-            $header_ogurl = "http://www.pricampos.blog.br/";
-            $header_ogtitle = "pricampos.blog.br - compartilhando estudos e experiências";
-            $header_ogdescription = "Blog sobre desenvovimento e qualidade de software";
-            $header_ogimage = '"http://127.0.0.1:81/pricampos/www/galeria/midiasocial/artigo-pricampos-facebook.jpg"';
+            $head_ogurl = "http://www.pricampos.blog.br/";
+            $head_ogtitle = "pricampos.blog.br - compartilhando estudos e experiências";
+            $head_ogdescription = "Blog sobre desenvovimento e qualidade de software";
+            $head_ogimage = '"http://127.0.0.1:81/pricampos/www/galeria/midiasocial/artigo-pricampos-facebook.jpg"';
 
             //Google Tags
-            $header_gdescription = "blog sobre desenvolvimento e qualidade de software";
+            $head_gdescription = "blog sobre desenvolvimento e qualidade de software";
 
             //Twitter Cards
-            $header_ttitle = '"pricampos.blog.br - compartilhando estudos e experiências"';
-            $header_tdescription = '"blog sobre desenvolvimento e qualidade de software"';
-            $header_timage = '"http://127.0.0.1:81/pricampos/www/galeria/midiasocial/artigo-pricampos-twitter.jpg"';
+            $head_ttitle = '"pricampos.blog.br - compartilhando estudos e experiências"';
+            $head_tdescription = '"blog sobre desenvolvimento e qualidade de software"';
+            $head_timage = '"http://127.0.0.1:81/pricampos/www/galeria/midiasocial/artigo-pricampos-twitter.jpg"';
 
-            include ("modulos/header.inc.php"); 
+            include ("modulos/head-seo.inc.php"); 
         ?>
     </head>
 
     <body>
         <header class="header">
             <?php include ("modulos/menu.inc.php"); ?>
-            <div class="banner">
+            <section class="banner">
                 <ul class="social-networks">
                     <li class="icon-network">   
                         <label for="facebook">
@@ -47,7 +47,12 @@
                         </label>
                     </li>
                 </ul>
-            </div>
+            </section>
         </header>
+
+
+        <footer>
+            <?php include ("modulos/footer.inc.php"); ?>
+        </footer>
     </body>
 </html>

@@ -3,26 +3,26 @@
     <head>
         <?php
             //Page Information
-            $header_title = "About Me";
-            $header_description ="Um pouco sobre mim";
-            $header_keywords = "pricampos.blog.br, priscila campos, priscila de oliveira campos, pri campos, blog, about me, sobre mim";
-            $header_canonical = '"http://www.pricampos.blog.br/about-me"';
+            $head_title = "About Me";
+            $head_description ="Um pouco sobre mim";
+            $head_keywords = "pricampos.blog.br, priscila campos, priscila de oliveira campos, pri campos, blog, about me, sobre mim";
+            $head_canonical = '"http://www.pricampos.blog.br/about-me"';
 
             //Facebook meta tag
-            $header_ogurl = "http://www.pricampos.blog.br/about-me";
-            $header_ogtitle = "About Me";
-            $header_ogdescription = "Um pouco sobre Priscila Campos";
-            $header_ogimage = '"http://127.0.0.1:81/pricampos/www/galeria/midiasocial/about-me-facebook.jpg"';
+            $head_ogurl = "http://www.pricampos.blog.br/about-me";
+            $head_ogtitle = "About Me";
+            $head_ogdescription = "Um pouco sobre Priscila Campos";
+            $head_ogimage = '"http://127.0.0.1:81/pricampos/www/galeria/midiasocial/about-me-facebook.jpg"';
 
             //Google Tags
-            $header_gdescription = "Um pouco sobre Priscila Campos";
+            $head_gdescription = "Um pouco sobre Priscila Campos";
 
             //Twitter Cards
-            $header_ttitle = '"About Me"';
-            $header_tdescription = '"Um pouco sobre Priscila Campos"';
-            $header_timage = '"http://127.0.0.1:81/pricampos/www/galeria/midiasocial/about-me-twitter.jpg"';
+            $head_ttitle = '"About Me"';
+            $head_tdescription = '"Um pouco sobre Priscila Campos"';
+            $head_timage = '"http://127.0.0.1:81/pricampos/www/galeria/midiasocial/about-me-twitter.jpg"';
 
-            include ("modulos/header.inc.php"); 
+            include ("modulos/head-seo.inc.php"); 
         ?>
     </head>
     
@@ -43,6 +43,10 @@
             <h5> Muito obrigada, por em algum momento, fazer parte disso! </h5>
             
             <h4>Abraços!</h4>
-        </article>   
+        </article>  
+        
+        <footer>
+            <?php include ("modulos/footer.inc.php"); ?>
+        </footer>
     </body>
 </html>
