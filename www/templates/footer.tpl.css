@@ -2,6 +2,8 @@
 
 html {
 	font-size:16 px;
+    position: relative;
+    min-height: 100%;
 }
 
 * {
@@ -14,8 +16,8 @@ html {
     display: flex;
     flex-wrap: nowrap;
     align-items: center;
-    bottom: 0;
     position: absolute;
+    bottom: 0px;
     padding-bottom: 12px;
     padding-top: 12px;
     background-color: #20272D;

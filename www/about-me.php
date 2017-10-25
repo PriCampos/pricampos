@@ -43,6 +43,7 @@
             <h5> Muito obrigada, por em algum momento, fazer parte disso! </h5>
             
             <h4>Abraços!</h4>
+            <img src="http://localhost:81/pricampos.blog.br/www/galeria/banner/about-me.png"/>
         </article>  
         
         <footer>

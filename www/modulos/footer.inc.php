@@ -1,7 +1,7 @@
 <div class="footer">
     <div class="footer-text">
         <p> &lt;?php </p>
-        <p> echo "Na minha máquina funciona. <i class="fa fa-coffee" aria-hidden="true"></i> "; </p>
+        <p> &nbsp; &nbsp; echo "Na minha máquina funciona. <i class="fa fa-coffee" aria-hidden="true"></i> "; </p>
         <p> ?&gt; </p>
     </div>
     <div class="footer-return-top">
