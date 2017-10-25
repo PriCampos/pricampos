@@ -14,7 +14,7 @@ html {
 /* Banner */
 .banner {
     height: 18rem;
-    background-image: url('http://127.0.0.1:81/pricampos/www/galeria/banner/banner-main.jpg');
+    background-image: url('http://127.0.0.1:81/pricampos.blog.br/www/galeria/banner/banner-main.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;

@@ -15,12 +15,12 @@
 <nav class="menu" id="menu" name="menu">
     <ul class="ul-menu" id="ul-menu" name="ul-menu">
         <li class="li-menu" id="home" name="home"> 
-            <a class="a-menu" href="http://127.0.0.1:81/pricampos/www/index.php">
+            <a class="a-menu" href="/pricampos.blog.br/www/index.php">
                 <i class="fa fa-home" aria-hidden="true" id="icon-resp"></i>&nbsp; Início
             </a>
         </li>
         <li class="li-menu" id="about" name="about">
-            <a  class="a-menu" href="http://127.0.0.1:81/pricampos/www/about-me.php">
+            <a  class="a-menu" href="/pricampos.blog.br/www/about-me.php">
                 <i class="fa fa-hand-spock-o" aria-hidden="true" id="icon-resp"></i>&nbsp; Pri Campos
             </a>
         </li>

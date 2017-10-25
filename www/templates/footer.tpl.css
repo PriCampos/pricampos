@@ -54,3 +54,9 @@ html {
     cursor: pointer;
     color: cadetblue;
 }
+
+@media(max-width: 870px) {
+    .footer-return-top {
+        font-size: 80%;
+    }
+}

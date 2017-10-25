@@ -57,13 +57,13 @@
 <meta name="twitter:creator" content="@Pr1_Camp0s">
 
 <!-- Favicons -->
-<link rel="shortcut icon" type="imagem/x-icon" href="http://127.0.0.1:81/pricampos/www/galeria/favicons/favicons16x16.ico">
-<link rel="shortcut icon" type="imagem/x-icon" href="http://127.0.0.1:81/pricampos/www/galeria/favicons/favicons32x32.ico">
-<link rel="shortcut icon" type="imagem/x-icon" href="http://127.0.0.1:81/pricampos/www/galeria/favicons/favicons48x48.ico">
-<link rel="shortcut icon" type="imagem/x-icon" href="http://127.0.0.1:81/pricampos/www/galeria/favicons/favicons64x64.ico">
-<link rel="shortcut icon" type="imagem/x-icon" href="http://127.0.0.1:81/pricampos/www/galeria/favicons/favicons128x128.ico">
-<link rel="apple-touch-icon-precomposed" href="http://127.0.0.1:81/pricampos/www/galeria/favicons/favicons180x180.png">
-<meta name="msapplication-TileImage" content="http://127.0.0.1:81/pricampos/www/galeria/favicons/favicons270x270.png">
+<link rel="shortcut icon" type="imagem/x-icon" href="http://127.0.0.1:81/pricampos.blog.br/www/galeria/favicons/favicons16x16.ico">
+<link rel="shortcut icon" type="imagem/x-icon" href="http://127.0.0.1:81/pricampos.blog.br/www/galeria/favicons/favicons32x32.ico">
+<link rel="shortcut icon" type="imagem/x-icon" href="http://127.0.0.1:81/pricampos.blog.br/www/galeria/favicons/favicons48x48.ico">
+<link rel="shortcut icon" type="imagem/x-icon" href="http://127.0.0.1:81/pricampos.blog.br/www/galeria/favicons/favicons64x64.ico">
+<link rel="shortcut icon" type="imagem/x-icon" href="http://127.0.0.1:81/pricampos.blog.br/www/galeria/favicons/favicons128x128.ico">
+<link rel="apple-touch-icon-precomposed" href="http://127.0.0.1:81/pricampos.blog.br/www/galeria/favicons/favicons180x180.png">
+<meta name="msapplication-TileImage" content="http://127.0.0.1:81/pricampos.blog.br/www/galeria/favicons/favicons270x270.png">
 
 <!--Preload CSS e JS  -->
 <link rel="preload" href="templates/menu.tpl.css" as="style">
