@@ -14,9 +14,7 @@ html {
 /*Footer*/
 .footer {
     display: flex;
-    flex-wrap: nowrap;
     align-items: center;
-    position: absolute;
     bottom: 0px;
     padding-bottom: 12px;
     padding-top: 12px;

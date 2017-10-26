@@ -78,8 +78,8 @@
 <link rel="preload" href="templates/footer.tpl.css" as="style">
 <link rel="stylesheet" type="text/css" href="templates/footer.tpl.css">
 
-<!-- Fonts Awesome and Googleapis -->
+<!-- Font-Awesome -->
 <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link href="https://fonts.googleapis.com/css?family=Amatic+SC|Raleway:100,200,300,400,500,600,700,800,900" rel="stylesheet">
-
+<!-- Font-Googleapis -->
+<link href="https://fonts.googleapis.com/css?family=Julius+Sans+One|Open+Sans" rel="stylesheet">
