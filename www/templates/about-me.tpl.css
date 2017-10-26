@@ -13,29 +13,53 @@ html {
 .body-about-me {
     background-image: url("http://localhost:81/pricampos.blog.br/www/galeria/banner/priscila-background2.jpeg");
     background-repeat: no-repeat;
-    overflow: scroll;
     background-size: cover;
     background-position: center;
+    box-sizing: border-box;
+    overflow: scroll;
+    display: block;
+    width: 100%;
+    height: auto;
 }
 
 .about-me {
     box-sizing: border-box;
-    width: 60%;
+    width: 70%;
     height: auto;
-    margin-left: 20%;
+    margin-left: 15%;
     background-color: rgba(255,255,255,.6);
     border-radius: 30px;
     border: solid 40px transparent;
     box-shadow: 0px 0px 6px 2px #9FA4B2;
-    padding-top: 15px;
-    padding-bottom: 10px;
     margin-top: 190px;
     margin-bottom: 10px;
+    display: block;
+    overflow: hidden;
 }
 
 .title-about-me {
     font-family: 'Julius Sans One', sans-serif;
-    margin-bottom: 20px;    
+    margin-bottom: 15px;  
+    color: crimson;
+}
+
+.title-name {
+    font-size: 115%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.title-address {
+    font-size: 90%;
+    font-family: 'Open Sans', sans-serif;
+    color: gray;
+}
+
+.about-me p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 90%;
+    text-align: justify;
+    margin-top:10px;
+    margin-bottom: 10px;
 }
 
 .img-about-me {
@@ -45,20 +69,46 @@ html {
 }
 
 .div-network {
-    text-align: left;
-    padding-top: 20px;
-}
-
-#li-content-about-me {
-    text-align: justify;
+    float: left;
+    position: relative;
+    margin-top: -120px;
+    margin-left: 190px;
     font-family: 'Open Sans', sans-serif;
-    display: block;
 }
 
-.li-about-me p {
-    margin-top: 12px;
-    margin-bottom: 12px;
-    display: block;
+.a-network {
+    list-style: none;
+    text-decoration: none;
+    color: #3B3F55;
+}
+
+.a-network:hover {
+    cursor: pointer;
+    color: #19191F;
+}
+
+@media(max-width: 870px) {
+    .about-me {
+        width: 98%;
+        margin-left: 1%;
+        margin-top: 220px;
+        border: solid 10px transparent;
+        border-radius: none;
+    }
+    
+    .title-about-me {
+        margin-bottom: 8px;
+    }
+    
+    .img-about-me {
+        width: 125px;
+    }
+    
+    .div-network {
+        font-size: 80%;
+        margin-top: -100px;
+        margin-left: 50%;
+    }
 }
 
 
