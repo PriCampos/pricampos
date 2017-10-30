@@ -47,9 +47,9 @@
                     
             <p>Acredito no poder de expandir as nossas ideias por meio do desenvolvimento conjunto e propósitos pluralistas.</p>
             
-            <p>Decidi fazer o blog, porquê quando compartilho um estudo, percebo que me esforço mais para absorver o conteúdo, tenho mais atenção aos detalhes diante do desafio de reescrever um objeto de estudo. Outras vantagens é obter feedback e melhorar a escrita. Também considero válido um acervo on-line do que tenho estudado, seja para uso próprio e para outros que buscam um conteúdo com uma outra percepção ou linguagem.</p>
+            <p>Decidi fazer o blog, porquê quando compartilho um estudo, tenho mais atenção aos detalhes diante do desafio de replicá-lo. Outras vantagens que vejo é obter feedback e melhorar a escrita. Também considero válido um acervo on-line do que tenho estudado, seja para uso próprio e para outros que buscam um conteúdo com uma outra percepção ou linguagem.</p>
 
-            <p> Muito obrigada, por em algum momento, fazer parte disso! Um abraço!</p>
+            <p> Muito obrigada, por em algum momento, colaborar! Um abraço!</p>
                     
             <img class="img-about-me" src="http://localhost:81/pricampos.blog.br/www/galeria/banner/priscila.png" />
             
