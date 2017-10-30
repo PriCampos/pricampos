@@ -16,8 +16,8 @@ html {
     display: flex;
     align-items: center;
     bottom: 0px;
-    padding-bottom: 12px;
-    padding-top: 12px;
+    padding-bottom: 8px;
+    padding-top: 8px;
     background-color: #20272D;
     width: 100%;
     height: auto;
@@ -29,7 +29,7 @@ html {
 .footer-text {
     background-color: #20272D;
     color: #E8DFDF;
-    font-size: 80%;
+    font-size: 70%;
     color: #9FA4B2;
     padding-left: 5px;
     width: 90%;
@@ -48,6 +48,7 @@ html {
     text-decoration: none;
     list-style: none;
     color: #E8DFDF;
+    font-size: 80%;
 }
 
 .a-footer-return:hover {
@@ -55,8 +56,22 @@ html {
     color: cadetblue;
 }
 
-@media(max-width: 870px) {
-    .footer-return-top {
-        font-size: 80%;
-    }
+.footer-copyright {
+    background-color: #181D21;
+    width: 100%;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+.footer-copyright a {
+    color: #2D9EFF;
+    font-size: 65%;
+    font-family: 'Arial';
+    text-align: center;
+    list-style: none;
+    text-decoration: none;
+}
+
+.footer-copyright a:hover {
+    cursor: pointer;
+    color: #154975;
 }

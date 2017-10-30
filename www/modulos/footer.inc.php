@@ -13,3 +13,8 @@
         </label>
     </div>
 </div>
+<div class="footer-copyright">
+    <a href="/pricampos.blog.br/www/index.php">
+        <p>@2017 pricampos.blog.br</p>
+    </a>
+</div>
