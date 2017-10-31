@@ -57,13 +57,13 @@ html {
 }
 
 .footer-copyright {
-    background-color: #181D21;
+    background-color: chocolate;
     width: 100%;
     padding-top: 4px;
     padding-bottom: 4px;
 }
 .footer-copyright a {
-    color: #2D9EFF;
+    color: #20272D;
     font-size: 65%;
     font-family: 'Arial';
     text-align: center;
@@ -73,5 +73,5 @@ html {
 
 .footer-copyright a:hover {
     cursor: pointer;
-    color: #154975;
+    color: #E8DFDF;
 }
