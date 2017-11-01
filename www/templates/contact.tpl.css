@@ -68,3 +68,19 @@
 	left: 1px;
 	border-color: #1D4CAC #999 #999 #1D4CAC; 
 }
+
+::-webkit-input-placeholder {
+   color: #E8DFDF;
+}
+
+@media(max-width: 870px) {
+    .img-title-contact {
+        width: 80%;
+        margin-left: 10%;
+    }
+    
+    .initial-message, .form-contact {
+        width: 94%;
+        margin-left: 3%;
+    }
+}
