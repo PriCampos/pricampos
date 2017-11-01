@@ -1,1 +1,70 @@
 /* Folha de Estilos - Contact */
+
+/* Contact Form*/
+.img-title-contact {
+    width: 40%;
+    height: auto;
+    margin-top: 2%;
+    margin-left: 30%;
+    text-align: center;
+    overflow: hidden;
+    display: block;
+}
+
+.initial-message {
+    width: 54%;
+    height: auto;
+    margin-top: 1%;
+    margin-left: 23%;
+    text-align: center;
+    display: block;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 100%;
+    color: grey;
+}
+
+.form-contact {
+    width: 54%;
+    height: auto;
+    margin-top: 0.5%;
+    margin-left: 23%;
+    margin-bottom: 2%;
+}
+
+#nickname, #email, #message, #subject {
+    background-color: #1D4CAC;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 1%;
+    margin-top: 5px;
+    box-sizing: border-box;
+    outline: none;
+    border: solid 1px transparent;
+    border-radius: 5px;
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#submit {
+    background-color: transparent;
+    border: solid 2px #1D4CAC;
+    border-radius: 20px;
+    box-shadow: 0px 0px 3px 0.2px #1D4CAC;
+    padding: 10px;
+    float: right;
+    margin-bottom: 2%;
+    margin-top: 1%;
+    font-family: 'Arial';
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+}
+
+#submit:hover{
+    position: relative;
+	top: 1px;
+	left: 1px;
+	border-color: #1D4CAC #999 #999 #1D4CAC; 
+}

@@ -66,17 +66,26 @@
 <meta name="msapplication-TileImage" content="http://127.0.0.1:81/pricampos.blog.br/www/galeria/favicons/favicons270x270.png">
 
 <!--Preload CSS e JS  -->
+
+<!-- General File - Menu and Foooter -->
 <link rel="preload" href="templates/menu.tpl.css" as="style">
 <link rel="stylesheet" type="text/css" href="templates/menu.tpl.css">
 
+<link rel="preload" href="templates/footer.tpl.css" as="style">
+<link rel="stylesheet" type="text/css" href="templates/footer.tpl.css">
+
+<!-- Main Page -->
 <link rel="preload" href="templates/banner-main.tpl.css" as="style">
 <link rel="stylesheet" type="text/css" href="templates/banner-main.tpl.css">
 
+<!-- About-me Page -->
 <link rel="preload" href="templates/about-me.tpl.css" as="style">
 <link rel="stylesheet" type="text/css" href="templates/about-me.tpl.css">
 
-<link rel="preload" href="templates/footer.tpl.css" as="style">
-<link rel="stylesheet" type="text/css" href="templates/footer.tpl.css">
+<!-- Category Page -->
+<!-- Contact Page -->
+<link rel="preload" href="templates/contact.tpl.css" as="style">
+<link rel="stylesheet" type="text/css" href="templates/contact.tpl.css">
 
 <!-- Font-Awesome -->
 <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">

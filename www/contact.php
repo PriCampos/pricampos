@@ -30,7 +30,30 @@
         <header>
             <?php include("modulos/menu.inc.php"); ?>
         </header>
-        fsdf
+        
+        <section class="section-contact">
+            <img class="img-title-contact" src="/pricampos.blog.br/www/galeria/banner/contact.png" />
+            
+            <h1 class="initial-message">Quer retirar alguma dúvida, fazer sugestões, relatar algum erro no site ou simplesmente conversar sobre a vida? Não hesite em me contactar.</h1>
+            
+            <form class="form-contact" method="post" action="/pricampos.blog.br/www/bibliotecas/report.php">
+                <label for="nickname">
+                    <input id="nickname" name="nickname" type="text"  placeholder="Nome:" maxlength="30" required autofocus />
+                </label><br/>
+                <label for="email">
+                    <input id="email" name="email" type="email" placeholder="E-mail:" required  maxlength="200"/> 
+                </label><br/>
+                <label for="subject">
+                    <input id="subject" name="subject" type="text" placeholder="Assunto:" required maxlength="50">
+                </label><br/>
+                <label for="message">
+                    <textarea id="message" name="message" placeholder="Mensagem:" maxlength="1000" rows="12" cols="80" required></textarea>
+                </label><br/>
+                <label for="submit" class="btn-enviar"> 
+                    <input id="submit" name="submit" type="submit" value="Enviar" acesskey="1" />
+                </label>
+            </form>
+        </section>
         <footer>
             <?php include ("modulos/footer.inc.php"); ?>
         </footer>
