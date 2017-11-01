@@ -42,7 +42,7 @@
             </ul>
         </li>
         <li class="li-menu" id="contact" name="contact">
-            <a class="a-menu" href="/">
+            <a class="a-menu" href="/pricampos.blog.br/www/contact.php">
                 <i class="fa fa-paper-plane" aria-hidden="true" id="icon-resp"></i>&nbsp; Contato
             </a>
         </li>
