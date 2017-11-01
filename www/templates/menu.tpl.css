@@ -31,7 +31,7 @@ html {
     outline: none;
     font-style: italic;
     color: #9FA4B2;
-    font-size: 90%;
+    font-size: 75%;
 }
 
 .btn-search, .box-search-resp {
@@ -127,7 +127,7 @@ html {
 
 .btn-menu-resp {
     padding: 10px;
-    color: #fff;
+    color: #E8DFDF;
     font-family: "Arial";
     font-size: 200%;
     cursor: pointer;

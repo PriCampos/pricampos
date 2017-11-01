@@ -26,7 +26,7 @@
         ?>
     </head>
     
-    <body>
+    <body class="body-contact">
         <header>
             <?php include("modulos/menu.inc.php"); ?>
         </header>

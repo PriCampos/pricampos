@@ -6,7 +6,7 @@
     <!-- Search box -->
     <form class="form-search-resp" id="form-search-resp" name="form-search-resp" method="get" action="www.pricampos.blog.br/modulos/search.php">
         <label for="nm-search">
-            <input type="search" class="box-search-resp" id="box-search-resp" name="box-search-resp" placeholder="Pesquisar no site...">
+            <input type="search" class="box-search-resp" id="box-search-resp" name="box-search-resp" placeholder="Buscar no blog...">
             <button type="submit" class="btn-search-resp" id="btn-search-resp" name="btn-search-resp">&nbsp;<i class="fa fa-search" aria-hidden="true"></i></button>
         </label>
     </form>
@@ -50,7 +50,7 @@
         <li class="li-menu" id="search-descktop" name="search-descktop">
             <form class="form-search" id="form-search" name="form-search" method="get" action="http://127.0.0.1:81/pricampos/www/modulos/search.php">
                 <label for="box-search">
-                    <input type="search" class="box-search" id="box-search" name="box-search" placeholder="Pesquisar no site...">
+                    <input type="search" class="box-search" id="box-search" name="box-search" placeholder="Buscar no blog...">
                     <button type="submit" class="btn-search" id="btn-search" name="btn-search"><i class="fa fa-search fa-lg" aria-hidden="true"></i></button>
                 </label>
             </form>
