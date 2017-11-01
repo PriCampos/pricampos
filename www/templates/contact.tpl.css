@@ -2,20 +2,20 @@
 
 /* Contact Form*/
 .img-title-contact {
-    width: 40%;
+    width: 54%;
     height: auto;
     margin-top: 2%;
-    margin-left: 30%;
+    margin-left: 23%;
     text-align: center;
     overflow: hidden;
     display: block;
 }
 
 .initial-message {
-    width: 54%;
+    width: 66%;
     height: auto;
     margin-top: 1%;
-    margin-left: 23%;
+    margin-left: 17%;
     text-align: center;
     display: block;
     font-family: 'Open Sans', sans-serif;
@@ -24,10 +24,10 @@
 }
 
 .form-contact {
-    width: 54%;
+    width: 66%;
     height: auto;
     margin-top: 0.5%;
-    margin-left: 23%;
+    margin-left: 17%;
     margin-bottom: 2%;
 }
 

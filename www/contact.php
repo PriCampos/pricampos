@@ -47,7 +47,7 @@
                     <input id="subject" name="subject" type="text" placeholder="Assunto:" required maxlength="50">
                 </label><br/>
                 <label for="message">
-                    <textarea id="message" name="message" placeholder="Mensagem:" maxlength="1000" rows="12" cols="80" required></textarea>
+                    <textarea id="message" name="message" placeholder="Mensagem:" maxlength="1000" rows="10" cols="80" required></textarea>
                 </label><br/>
                 <label for="submit" class="btn-enviar"> 
                     <input id="submit" name="submit" type="submit" value="Enviar" acesskey="1" />
