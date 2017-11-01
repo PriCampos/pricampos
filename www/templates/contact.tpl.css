@@ -84,7 +84,7 @@
 	border-color: #1D4CAC #999 #999 #1D4CAC; 
 }
 
-::-webkit-input-placeholder {
+.section-contact::-webkit-input-placeholder {
    color: #E8DFDF;
 }
 
