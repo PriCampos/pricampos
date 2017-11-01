@@ -74,18 +74,21 @@
 <link rel="preload" href="templates/footer.tpl.css" as="style">
 <link rel="stylesheet" type="text/css" href="templates/footer.tpl.css">
 
-<!-- Main Page -->
-<link rel="preload" href="templates/banner-main.tpl.css" as="style">
-<link rel="stylesheet" type="text/css" href="templates/banner-main.tpl.css">
+<?php
+// Main Page
 
-<!-- About-me Page -->
-<link rel="preload" href="templates/about-me.tpl.css" as="style">
-<link rel="stylesheet" type="text/css" href="templates/about-me.tpl.css">
+    $head_main_preload = '<link rel="preload" href="templates/banner-main.tpl.css" as="style">';
+    $head_main = '<link rel="stylesheet" type="text/css" href="templates/banner-main.tpl.css">';
 
-<!-- Category Page -->
-<!-- Contact Page -->
-<link rel="preload" href="templates/contact.tpl.css" as="style">
-<link rel="stylesheet" type="text/css" href="templates/contact.tpl.css">
+// About-me Page 
+    $head_about_me_preload = '<link rel="preload" href="templates/about-me.tpl.css" as="style">';
+    $head_about_me = '<link rel="stylesheet" type="text/css" href="templates/about-me.tpl.css">';
+
+// Category Page
+// Contact Page 
+    $head_contact_preload = '<link rel="preload" href="templates/contact.tpl.css" as="style">';
+    $head_contact = '<link rel="stylesheet" type="text/css" href="templates/contact.tpl.css">';
+?>
 
 <!-- Font-Awesome -->
 <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">

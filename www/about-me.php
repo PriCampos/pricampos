@@ -23,6 +23,10 @@
             $head_timage = '"/pricampos.blog.br/www/galeria/midiasocial/about-me-twitter.jpg"';
 
             include ("modulos/head-seo.inc.php"); 
+        
+            //CSS & JS
+            print @$head_about_me_preload;
+            print @$head_about_me;            
         ?>
     </head>
     
