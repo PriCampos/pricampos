@@ -48,16 +48,16 @@
             
             <form class="form-contact" method="post" action="/pricampos.blog.br/www/bibliotecas/report.php">
                 <label for="nickname">
-                    <input id="nickname" name="nickname" type="text"  placeholder="Nome:" maxlength="30" required autofocus />
+                    <input class="input-form-contact" id="nickname" name="nickname" type="text"  placeholder="Nome:" maxlength="30" required autofocus />
                 </label><br/>
                 <label for="email">
-                    <input id="email" name="email" type="email" placeholder="E-mail:" required  maxlength="200"/> 
+                    <input class="input-form-contact"  id="email" name="email" type="email" placeholder="E-mail:" required  maxlength="200"/> 
                 </label><br/>
                 <label for="subject">
-                    <input id="subject" name="subject" type="text" placeholder="Assunto:" required maxlength="50">
+                    <input class="input-form-contact"  id="subject" name="subject" type="text" placeholder="Assunto:" required maxlength="50">
                 </label><br/>
                 <label for="message">
-                    <textarea id="message" name="message" placeholder="Mensagem:" maxlength="1000" rows="8" cols="80" required></textarea>
+                    <textarea class="input-form-contact"  id="message" name="message" placeholder="Mensagem:" maxlength="1000" rows="9" cols="80" required></textarea>
                 </label><br/>
                 <label for="submit" class="btn-enviar"> 
                     <input id="submit" name="submit" type="submit" value="Enviar" acesskey="1" />
