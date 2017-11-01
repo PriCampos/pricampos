@@ -12,7 +12,7 @@
             $head_ogurl = "http://www.pricampos.blog.br/contact";
             $head_ogtitle = "Contact";
             $head_ogdescription = "Entre em contato";
-            $head_ogimage = '"http://127.0.0.1:81/pricampos.blog.br/www/galeria/midiasocial/artigo-pricampos-facebook.jpg"';
+            $head_ogimage = '"/pricampos.blog.br/www/galeria/midiasocial/artigo-pricampos-facebook.jpg"';
 
             //Google Tags
             $head_gdescription = "Entre em Contato";
@@ -20,7 +20,7 @@
             //Twitter Cards
             $head_ttitle = '"Contact"';
             $head_tdescription = '"Entre em Contato"';
-            $head_timage = '"http://127.0.0.1:81/pricampos.blog.br/www/galeria/midiasocial/artigo-pricampos-twitter.jpg"';
+            $head_timage = '"/pricampos.blog.br/www/galeria/midiasocial/artigo-pricampos-twitter.jpg"';
 
             include ("modulos/head-seo.inc.php"); 
         ?>
@@ -30,7 +30,7 @@
         <header>
             <?php include("modulos/menu.inc.php"); ?>
         </header>
-        
+        fsdf
         <footer>
             <?php include ("modulos/footer.inc.php"); ?>
         </footer>

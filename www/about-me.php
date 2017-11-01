@@ -12,7 +12,7 @@
             $head_ogurl = "http://www.pricampos.blog.br/about-me";
             $head_ogtitle = "About Me";
             $head_ogdescription = "Um pouco sobre Priscila Campos";
-            $head_ogimage = '"http://127.0.0.1:81/pricampos.blog.br/www/galeria/midiasocial/about-me-facebook.jpg"';
+            $head_ogimage = '"/pricampos.blog.br/www/galeria/midiasocial/about-me-facebook.jpg"';
 
             //Google Tags
             $head_gdescription = "Um pouco sobre Priscila Campos";
@@ -20,7 +20,7 @@
             //Twitter Cards
             $head_ttitle = '"About Me"';
             $head_tdescription = '"Um pouco sobre Priscila Campos"';
-            $head_timage = '"http://127.0.0.1:81/pricampos.blog.br/www/galeria/midiasocial/about-me-twitter.jpg"';
+            $head_timage = '"/pricampos.blog.br/www/galeria/midiasocial/about-me-twitter.jpg"';
 
             include ("modulos/head-seo.inc.php"); 
         ?>
@@ -51,7 +51,7 @@
 
             <p> Muito obrigada, por em algum momento, colaborar! Um abraço!</p>
                     
-            <img class="img-about-me" src="http://localhost:81/pricampos.blog.br/www/galeria/banner/priscila.png" />
+            <img class="img-about-me" src="/pricampos.blog.br/www/galeria/banner/priscila.png" />
             
             <div class="div-network">
                 <h4><a class="a-network" href="https://www.facebook.com/priscila.campos.752" target="_blank"><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i>&nbsp;Facebook</a></h4>

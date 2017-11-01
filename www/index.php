@@ -12,7 +12,7 @@
             $head_ogurl = "http://www.pricampos.blog.br/";
             $head_ogtitle = "pricampos.blog.br - compartilhando estudos e experiências";
             $head_ogdescription = "Blog sobre desenvovimento e qualidade de software";
-            $head_ogimage = '"http://127.0.0.1:81/pricampos.blog.br/www/galeria/midiasocial/artigo-pricampos-facebook.jpg"';
+            $head_ogimage = '"/pricampos.blog.br/www/galeria/midiasocial/artigo-pricampos-facebook.jpg"';
 
             //Google Tags
             $head_gdescription = "blog sobre desenvolvimento e qualidade de software";
@@ -20,7 +20,7 @@
             //Twitter Cards
             $head_ttitle = '"pricampos.blog.br - compartilhando estudos e experiências"';
             $head_tdescription = '"blog sobre desenvolvimento e qualidade de software"';
-            $head_timage = '"http://127.0.0.1:81/pricampos.blog.br/www/galeria/midiasocial/artigo-pricampos-twitter.jpg"';
+            $head_timage = '"/pricampos.blog.br/www/galeria/midiasocial/artigo-pricampos-twitter.jpg"';
 
             include ("modulos/head-seo.inc.php"); 
         ?>
