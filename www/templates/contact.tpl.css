@@ -23,6 +23,20 @@
     color: grey;
 }
 
+.contact-network {
+    text-align: center;
+    display: block;
+}
+
+.a-contact-network {
+    color: #1D4CAC;
+    cursor: pointer;
+}
+
+.a-contact-network:hover {
+    color: #081530;
+}
+
 .form-contact {
     width: 66%;
     height: auto;
