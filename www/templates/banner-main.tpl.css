@@ -13,7 +13,7 @@ html {
 .banner {
     height: 18rem;
     background-image: url('/pricampos.blog.br/www/galeria/banner/banner-main.jpg');
-    background-position: center;
+    background-position-x: 15%;
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
@@ -25,7 +25,9 @@ html {
 
 .social-networks {
     margin-top: 3rem;
-    margin-left: 4rem;
+    width: 100%;
+    height: auto;
+    float: right;
     list-style: none;
     text-decoration: none;
 }
@@ -33,10 +35,11 @@ html {
 .icon-network {
     display: inline;
     line-height: 20px;
+    margin-left: 5px;
 }
 
 #facebook, #linkedin, #github {
-    color: #20272D;
+    color: #E8DFDF;
     cursor: pointer;
 }
 

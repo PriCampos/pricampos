@@ -37,17 +37,17 @@
                 <ul class="social-networks">
                     <li class="icon-network">   
                         <label for="facebook">
-                            <a class="link-network" href="https://www.facebook.com/priscila.campos.752" target="_blank"><i class="fa fa-facebook-square fa-3x" aria-hidden="true" id="facebook"></i></a>
+                            <a class="link-network" href="https://www.facebook.com/priscila.campos.752" target="_blank"><i class="fa fa-facebook-square fa-2x" aria-hidden="true" id="facebook"></i></a>
                         </label>
                     </li>
                     <li class="icon-network"> 
                         <label for="linkedin">
-                            <a id="link-network" href="https://www.linkedin.com/in/priscila-campos-7b4653134/" target="_blank"><i class="fa fa-linkedin-square fa-3x" aria-hidden="true" id="linkedin"></i></a>
+                            <a id="link-network" href="https://www.linkedin.com/in/priscila-campos-7b4653134/" target="_blank"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true" id="linkedin"></i></a>
                         </label>
                     </li>
                     <li class="icon-network"> 
                         <label class="github">
-                        <a class="link-network" href="https://github.com/PriCampos" target="_blank"><i class="fa fa-github-square fa-3x" aria-hidden="true" id="github"></i></a>
+                        <a class="link-network" href="https://github.com/PriCampos" target="_blank"><i class="fa fa-github-square fa-2x" aria-hidden="true" id="github"></i></a>
                         </label>
                     </li>
                 </ul>
