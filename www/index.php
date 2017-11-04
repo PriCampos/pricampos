@@ -3,14 +3,14 @@
     <head>
         <?php
             //Page Information
-            $head_title = "pricampos.blog.br - compartilhando estudos e experiências";
+            $head_title = "Por um mundo mais colaborativo!";
             $head_description ="blog sobre desenvolvimento e qualidade de software";
             $head_keywords = "pricampos.blog.br, priscila campos, priscila de oliveira campos, pri campos, blog";
             $head_canonical = '"http://www.pricampos.blog.br/"';
 
             //Facebook meta tag
             $head_ogurl = "http://www.pricampos.blog.br/";
-            $head_ogtitle = "pricampos.blog.br - compartilhando estudos e experiências";
+            $head_ogtitle = "Por um mundo mais colaborativo!";
             $head_ogdescription = "Blog sobre desenvovimento e qualidade de software";
             $head_ogimage = '"/pricampos.blog.br/www/galeria/midiasocial/artigo-pricampos-facebook.jpg"';
 
@@ -18,7 +18,7 @@
             $head_gdescription = "blog sobre desenvolvimento e qualidade de software";
 
             //Twitter Cards
-            $head_ttitle = '"pricampos.blog.br - compartilhando estudos e experiências"';
+            $head_ttitle = '"Por um mundo mais colaborativo!"';
             $head_tdescription = '"blog sobre desenvolvimento e qualidade de software"';
             $head_timage = '"/pricampos.blog.br/www/galeria/midiasocial/artigo-pricampos-twitter.jpg"';
 
@@ -34,23 +34,9 @@
         <header class="header">
             <?php include ("modulos/menu.inc.php"); ?>
             <section class="banner">
-                <ul class="social-networks">
-                    <li class="icon-network">   
-                        <label for="facebook">
-                            <a class="link-network" href="https://www.facebook.com/priscila.campos.752" target="_blank"><i class="fa fa-facebook-square fa-2x" aria-hidden="true" id="facebook"></i></a>
-                        </label>
-                    </li>
-                    <li class="icon-network"> 
-                        <label for="linkedin">
-                            <a id="link-network" href="https://www.linkedin.com/in/priscila-campos-7b4653134/" target="_blank"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true" id="linkedin"></i></a>
-                        </label>
-                    </li>
-                    <li class="icon-network"> 
-                        <label class="github">
-                        <a class="link-network" href="https://github.com/PriCampos" target="_blank"><i class="fa fa-github-square fa-2x" aria-hidden="true" id="github"></i></a>
-                        </label>
-                    </li>
-                </ul>
+                <div class="banner-msg">
+                    <h1>Para Que(m) Serve o Teu Conhecimento?</h1>
+                </div>
             </section>
         </header>
 

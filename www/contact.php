@@ -3,14 +3,14 @@
     <head>
         <?php
             //Page Information
-            $head_title = "Contact";
+            $head_title = "Contate-me | pricampos.blog.br";
             $head_description ="Entre em contato";
             $head_keywords = "contato, network, redes sociais, network tecnologia";
             $head_canonical = '"http://www.pricampos.blog.br/contact"';
 
             //Facebook meta tag
             $head_ogurl = "http://www.pricampos.blog.br/contact";
-            $head_ogtitle = "Contact";
+            $head_ogtitle = "Contate-me | pricampos.blog.br";
             $head_ogdescription = "Entre em contato";
             $head_ogimage = '"/pricampos.blog.br/www/galeria/midiasocial/artigo-pricampos-facebook.jpg"';
 
@@ -18,7 +18,7 @@
             $head_gdescription = "Entre em Contato";
 
             //Twitter Cards
-            $head_ttitle = '"Contact"';
+            $head_ttitle = '"Contate-me | pricampos.blog.br"';
             $head_tdescription = '"Entre em Contato"';
             $head_timage = '"/pricampos.blog.br/www/galeria/midiasocial/artigo-pricampos-twitter.jpg"';
 

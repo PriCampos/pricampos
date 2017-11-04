@@ -23,28 +23,13 @@ html {
     overflow: hidden;
 }
 
-.social-networks {
-    margin-top: 3rem;
+.banner-msg {
+    font-family: 'Cutive Mono', monospace;
+    font-size: 130%;
+    text-align: center;
     width: 100%;
-    height: auto;
-    float: right;
-    list-style: none;
-    text-decoration: none;
-}
-
-.icon-network {
-    display: inline;
-    line-height: 20px;
-    margin-left: 5px;
-}
-
-#facebook, #linkedin, #github {
-    color: #E8DFDF;
-    cursor: pointer;
-}
-
-#facebook:hover, #linkedin:hover, #github:hover {
-    color: cadetblue;
+    margin-top: 15px;
+    color: #fff;
 }
 
 @media (max-width: 870px) {
@@ -54,9 +39,5 @@ html {
         justify-content: center;
         text-align: center;
         width: 100%;
-    }
-   .social-networks {
-        margin-top: 2rem;
-        margin-left: 0;
     }
 }

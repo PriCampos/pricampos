@@ -76,9 +76,8 @@
 
 <?php
 // Main Page
-
-    $head_main_preload = '<link rel="preload" href="templates/banner-main.tpl.css" as="style">';
-    $head_main = '<link rel="stylesheet" type="text/css" href="templates/banner-main.tpl.css">';
+    $head_main_preload = '<link rel="preload" href="templates/main-page.tpl.css" as="style">';
+    $head_main = '<link rel="stylesheet" type="text/css" href="templates/main-page.tpl.css">';
 
 // About-me Page 
     $head_about_me_preload = '<link rel="preload" href="templates/about-me.tpl.css" as="style">';
@@ -94,4 +93,5 @@
 <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <!-- Font-Googleapis -->
-<link href="https://fonts.googleapis.com/css?family=Julius+Sans+One|Open+Sans" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Julius+Sans+One|Open+Sans|Open+Sans+Condensed:300|Quicksand" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Cutive+Mono" rel="stylesheet">
