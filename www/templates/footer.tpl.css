@@ -62,8 +62,8 @@ html {
 .footer-copyright {
     background-color: #FF69B4;
     width: 100%;
-    padding-top: 4px;
-    padding-bottom: 4px;
+    padding-top: 2.8px;
+    padding-bottom: 2.8px;
 }
 .footer-copyright a {
     color: black;

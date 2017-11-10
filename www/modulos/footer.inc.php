@@ -16,7 +16,7 @@
 </div>
     
 <div class="footer-copyright">
-    <a href="/pricampos.blog.br/www/index.php">
-        <p>@2017 pricampos.blog.br</p>
+    <a href="/pricampos.blog.br/www/contact.php">
+        <p>@2017 Contate-me | pricampos.blog.br </p>
     </a>
 </div>
