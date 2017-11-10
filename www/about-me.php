@@ -34,7 +34,7 @@
         <header>
             <?php include("modulos/menu.inc.php"); ?>
         </header>
-        
+        <div class="background-about-me">
         <section class="about-me">
             <h1 class="title-about-me">A Little Bit About Me...</h1>
             
@@ -51,9 +51,9 @@
                     
             <p>Acredito no poder de expandir as nossas ideias por meio do desenvolvimento conjunto e propósitos pluralistas.</p>
             
-            <p>Decidi fazer o blog, porquê quando compartilho um estudo, tenho mais atenção aos detalhes diante do desafio de replicá-lo. Outras vantagens é obter feedback e melhorar a escrita. Também considero válido um acervo on-line do que tenho estudado, seja para uso próprio e para outros que buscam um conteúdo com uma outra percepção ou linguagem.</p>
+            <p>Decidi fazer o blog, porquê quando compartilho um estudo, tenho mais atenção aos detalhes diante do desafio de replicá-lo. E também por ser um meio de obter feedback e melhorar a escrita. Também considero válido um acervo on-line do que tenho estudado, seja para uso próprio e para outros que buscam um conteúdo com uma outra percepção ou linguagem.</p>
 
-            <p> Muito obrigada, por em algum momento, colaborar! Um abraço!</p>
+            <p> Muito obrigada, por em algum momento, fazer parte deste projeto! Um abraço!</p>
                     
             <img class="img-about-me" src="/pricampos.blog.br/www/galeria/banner/priscila.png" />
             
@@ -63,7 +63,7 @@
                 <h4><a class="a-network" href="https://github.com/PriCampos" target="_blank"><i class="fa fa-github-square fa-2x" aria-hidden="true" ></i>&nbsp;GitHub</a></h4>
             </div>     
         </section> 
-   
+   </div>
         <footer>
             <?php include ("modulos/footer.inc.php"); ?>
         </footer>

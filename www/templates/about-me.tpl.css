@@ -10,13 +10,13 @@ html {
 }
 
 /* About-Me */
-.body-about-me {
+.background-about-me {
     background-image: url("/pricampos.blog.br/www/galeria/banner/priscila-background.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     box-sizing: border-box;
-    overflow: scroll;
+    overflow: auto;
     display: block;
     width: 100%;
     height: auto;
@@ -40,7 +40,7 @@ html {
 .title-about-me {
     font-family: 'Julius Sans One', sans-serif;
     margin-bottom: 15px;  
-    color: crimson;
+    color: black;
 }
 
 .title-name {
