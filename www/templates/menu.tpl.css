@@ -166,17 +166,20 @@ html {
 .btn-menu-resp {
     padding-top: 10px;
     padding-bottom: 10px;
+    box-sizing: border-box;
     padding-left: 1%;
     color: #E8DFDF;
-    font-family: "Arial";
-    font-size: 200%;
-    cursor: pointer;
-    height: 50px;
     text-align: left;
+}
+
+.btn-menu-resp:hover {
+    color: white;
+    cursor: pointer;
 }
 
 .div-menu-resp {
     display: none;
+    box-sizing: border-box;
 }
 
 @media(max-width: 870px){

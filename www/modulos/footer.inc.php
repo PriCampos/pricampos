@@ -8,7 +8,7 @@
         <li class="footer-return-top">
             <label for="btn-return-top">
                 <a class="a-footer-return" href="#top">
-                    <i class="fa fa-grav fa-3x" aria-hidden="true"></i> Voltar ao Topo
+                    <i class="fa fa-grav fa-2x" aria-hidden="true"></i> Voltar ao Topo
                 </a>
             </label>
         </li>

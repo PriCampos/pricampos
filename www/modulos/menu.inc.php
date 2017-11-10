@@ -2,7 +2,7 @@
 <span id="top" name="top"></span>
 <input type="checkbox" id="btn-menu-resp" name="btn-menu-resp">
 <div class="div-menu-resp" id="div-menu-resp" name="div-menu-resp">
-    <label for="btn-menu-resp" class="btn-menu-resp">&#9776;</label>
+    <label for="btn-menu-resp" class="btn-menu-resp"><i class="fa fa-bars fa-2x" aria-hidden="true"></i></label>
     <!-- Search box -->
     <form class="form-search-resp" id="form-search-resp" name="form-search-resp" method="get" action="www.pricampos.blog.br/modulos/search.php">
         <label for="nm-search">
