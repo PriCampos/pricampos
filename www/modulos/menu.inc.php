@@ -6,7 +6,7 @@
     <!-- Search box -->
     <form class="form-search-resp" id="form-search-resp" name="form-search-resp" method="get" action="www.pricampos.blog.br/modulos/search.php">
         <label for="nm-search">
-            <input type="search" class="box-search-resp" id="box-search-resp" name="box-search-resp" placeholder="Buscar no blog...">
+            <input type="search" class="box-search-input-resp" id="box-search-input-resp" name="box-search-input-resp" placeholder="Buscar no blog...">
             <button type="submit" class="btn-search-resp" id="btn-search-resp" name="btn-search-resp">&nbsp;<i class="fa fa-search" aria-hidden="true"></i></button>
         </label>
     </form>
@@ -27,17 +27,32 @@
             </li>
             <li class="li-menu" id="category" name="category">
                 <a class="a-menu">
-                    <i class="fa fa-newspaper-o" aria-hidden="true" id="icon-resp"></i>&nbsp; ASSUNTOS <i class="fa fa-angle-down" aria-hidden="true" id="icon-descktop"></i>
+                    <i class="fa fa-newspaper-o" aria-hidden="true" id="icon-resp"></i>&nbsp; ASSUNTOS
                 </a>
-                <ul class="ul-submenu" id="submenu" name="submenu">
-                    <li class="li-submenu" id="front-end" name="front-end">
-                        <a class="a-submenu" href="/">
-                            Front-end
+                <ul class="ul-submenu-resp" id="ul-submenu-resp" name="ul-submenu-resp">
+                    <li class="li-submenu-resp" id="agile" name="agile">
+                        <a class="a-submenu-resp" href="/">
+                            ÁGIL
                         </a>
                     </li>
-                    <li class="li-submenu" id="tests"   name="tests">
-                        <a class="a-submenu" href="/">
-                            Teste de Software
+                    <li class="li-submenu-resp" id="good-habits" name="good-habits">
+                        <a class="a-submenu-resp" href="/">
+                            BOAS PRÁTICAS
+                        </a>
+                    </li>
+                    <li class="li-submenu-resp" id="front-end" name="front-end">
+                        <a class="a-submenu-resp" href="/">
+                            FRONT-END
+                        </a>
+                    </li>
+                    <li class="li-submenu-resp" id="programming" name="programming">
+                        <a class="a-submenu-resp" href="/">
+                            PROGRAMAÇÃO
+                        </a>
+                    </li>
+                    <li class="li-submenu-resp" id="tests"   name="tests">
+                        <a class="a-submenu-resp" href="/">
+                            TESTE DE SOFTWARE
                         </a>
                     </li>
                 </ul>
@@ -56,6 +71,19 @@
                     </label>
                 </form>
             </li>
+            <li class="li-menu" id="network-responsive" name="network-responsive">
+                <ul class="ul-network-responsive">
+                    <li class="li-network-responsive">
+                        <a class="a-category-network" href="https://www.facebook.com/priscila.campos.752" target="_blank">&nbsp; <i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a>
+                    </li>
+                    <li class="ul-network-responsive">
+                        <a class="a-category-network" href="https://www.linkedin.com/in/priscila-campos-7b4653134/" target="_blank"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true" ></i></a>
+                    </li>
+                    <li class="ul-network-responsive">
+                        <a class="a-category-network" href="https://github.com/PriCampos" target="_blank"><i class="fa fa-github-square fa-2x" aria-hidden="true" ></i></a>
+                    </li>
+                </ul>
+            </li>
         </ul>
     </div>
     <div class="div-category">
@@ -67,7 +95,7 @@
             </li>
             <li class="li-category" id="category-agile">
                 <a class="a-category" href="/">
-                    &nbsp; Agile
+                    &nbsp; Ágil
                 </a>
             </li>
             <li class="li-category" id="category-good-habits">
