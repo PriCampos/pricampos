@@ -74,12 +74,15 @@
             <li class="li-menu" id="network-responsive" name="network-responsive">
                 <ul class="ul-network-responsive">
                     <li class="li-network-responsive">
+                        <p> REDES SOCIAIS: </p>
+                    </li>
+                    <li class="li-network-responsive" id="icon-network-responsive">
                         <a class="a-category-network" href="https://www.facebook.com/priscila.campos.752" target="_blank">&nbsp; <i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a>
                     </li>
-                    <li class="ul-network-responsive">
+                    <li class="ul-network-responsive" id="icon-network-responsive">
                         <a class="a-category-network" href="https://www.linkedin.com/in/priscila-campos-7b4653134/" target="_blank"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true" ></i></a>
                     </li>
-                    <li class="ul-network-responsive">
+                    <li class="ul-network-responsive" id="icon-network-responsive">
                         <a class="a-category-network" href="https://github.com/PriCampos" target="_blank"><i class="fa fa-github-square fa-2x" aria-hidden="true" ></i></a>
                     </li>
                 </ul>

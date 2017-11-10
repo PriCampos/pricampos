@@ -204,11 +204,15 @@ html {
     .ul-network-responsive {
         display: flex;
         align-items: center;
-        justify-content: space-around;
+        justify-content: flex-start;
         list-style: none;
     }
     .a-category-network {
         text-decoration: none;
+    }
+    #icon-network-responsive {
+        margin-left: 2px;
+        box-sizing: border-box;
     }
     .div-category {
         display: none;
