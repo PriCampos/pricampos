@@ -82,3 +82,16 @@ html {
 .footer-copyright a:active, .footer-copyright a:link {
     color: black;
 }
+
+@media(max-width: 870px){
+    .footer-resize {
+        width: 100%;
+        margin-left: 0%;
+    }
+    .a-footer-return {
+        font-size: 65%;
+    }
+    .footer-text {
+        font-size: 65%;
+    }
+}
