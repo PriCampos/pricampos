@@ -38,13 +38,7 @@
         <section class="section-contact">
             <img class="img-title-contact" src="/pricampos.blog.br/www/galeria/banner/contact.png" />
             
-            <h1 class="initial-message">Quer retirar alguma dúvida, fazer sugestões, relatar algum erro no site ou simplesmente conversar sobre a vida? Não hesite em me contactar.</h1>
-            
-            <div class="contact-network">
-                <a class="a-contact-network" href="https://www.facebook.com/priscila.campos.752" target="_blank"><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a>
-                <a class="a-contact-network" href="https://www.linkedin.com/in/priscila-campos-7b4653134/" target="_blank"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true" ></i></a>
-                <a class="a-contact-network" href="https://github.com/PriCampos" target="_blank"><i class="fa fa-github-square fa-2x" aria-hidden="true" ></i></a>
-            </div>
+            <h1 class="initial-message">Quer retirar alguma dúvida, fazer sugestões, relatar algum erro no blog ou, simplesmente conversar sobre a vida? Não hesite em me contactar.</h1>
             
             <form class="form-contact" method="post" action="/pricampos.blog.br/www/bibliotecas/report.php">
                 <label for="nickname">

@@ -23,20 +23,6 @@
     color: grey;
 }
 
-.contact-network {
-    text-align: center;
-    display: block;
-}
-
-.a-contact-network {
-    color: #1D4CAC;
-    cursor: pointer;
-}
-
-.a-contact-network:hover {
-    color: #081530;
-}
-
 .form-contact {
     width: 66%;
     height: auto;
@@ -46,7 +32,7 @@
 }
 
 #nickname, #email, #message, #subject {
-    background-color: #1D4CAC;
+    background-color: #B0C4DE;
     padding-top: 1%;
     padding-bottom: 1%;
     padding-left: 1%;
@@ -59,14 +45,14 @@
     height: auto;
     cursor: pointer;
     font-family: 'Open Sans', sans-serif;
-    color: #E8DFDF;
+    color: black;
 }
 
 #submit {
     background-color: transparent;
-    border: solid 2px #1D4CAC;
+    border: solid 2px #B0C4DE;
     border-radius: 20px;
-    box-shadow: 0px 0px 3px 0.2px #1D4CAC;
+    box-shadow: 0px 0px 3px 0.2px #B0C4DE;
     padding: 10px;
     float: right;
     margin-bottom: 2%;
@@ -81,11 +67,11 @@
     position: relative;
 	top: 1px;
 	left: 1px;
-	border-color: #1D4CAC #999 #999 #1D4CAC; 
+	border-color: #B0C4DE #999 #999 #B0C4DE; 
 }
 
 .input-form-contact::-webkit-input-placeholder {
-   color: #E8DFDF;
+   color: black;
 }
 
 @media(max-width: 870px) {
