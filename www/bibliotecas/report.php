@@ -29,28 +29,31 @@
         <?php
             //Include the doc class.phpmailer.php
             require_once ("phpmailer\class.phpmailer.php");
+        
+            //Include the doc data_mysql_smtp.php
+            require_once ("data_mysql_smtp.php");
             
             //Start the PHPMailer class
             $mail = new PHPMailer();
         
             //Connection type and SMTP data
             $mail -> IsSMTP();
-            $mail -> Host = print $hostsmtp;
-            $mail -> Port = print $portsmtp;
+            $mail -> Host = $hostsmtp;
+            $mail -> Port = $portsmtp;
             $mail -> SMTPAuth = true; //defines whether to use authentication
             $mail -> SMTPSecure = false; //defines whether use SSL/TLS
             $mail -> SMTPAutoTLS = false; //defines whether use TLS
-            $mail -> Username = print $emailcontact;
-            $mail -> Password = print $emailpassword;
+            $mail -> Username = $emailcontact;
+            $mail -> Password = $emailpassword;
     
             //Form data
-            $nickname = $_POST[''];
-            $email_from = $_POST[''];
-            $email_subject = $_POST[''];
-            $email_message = $_POST[''];
+            $nickname = $_POST['nickname'];
+            $email_from = $_POST['email'];
+            $email_subject = $_POST['subject'];
+            $email_message = $_POST['message'];
         
             //Sender data
-            $mail -> Sender = print $emailcontact;
+            $mail -> Sender = $emailcontact;
             $mail -> From  = $email_from;
             $mail -> FromName = $nickname;
         
@@ -76,8 +79,7 @@
         
             if ($sent) {
                 echo "Seu e-mail foi enviado com sucesso."."<br>";
-                echo "Em breve, darei retorno"."<br>";
-                echo "Muito obrigada pelo contato ".$nickname."!";
+                echo "Muito obrigada pelo contato, ".$nickname."!";
             } else {
                 echo "Não foi possível enviar o e-mail." ."<br>";
                 echo "Entre em contato por uma das redes sociais ou, pelo e-mail contactme@pricampos.blog.br"."<br>";

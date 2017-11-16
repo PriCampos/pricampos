@@ -103,6 +103,7 @@ html {
 .div-category {
     width: 100%;
     background-color: white;
+    border-bottom: 1px solid #CCCECB;
 }
 
 .ul-category {
