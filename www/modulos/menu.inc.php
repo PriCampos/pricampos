@@ -1,3 +1,20 @@
+<!-- Access Statistics -->
+<!-- Piwik -->
+<script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//cluster-piwik.locaweb.com.br/";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', 19513]);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<noscript><p><img src="//cluster-piwik.locaweb.com.br/piwik.php?idsite=19513" style="border:0;" alt="" /></p></noscript>
+<!-- End Piwik Code -->
+
 <!-- Menu e Box Search Responsive -->
 <span id="top" name="top"></span>
 <input type="checkbox" id="btn-menu-resp" name="btn-menu-resp">
