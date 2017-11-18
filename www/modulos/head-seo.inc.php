@@ -87,6 +87,10 @@
 // Contact Page 
     $head_contact_preload = '<link rel="preload" href="templates/contact.tpl.css" as="style">';
     $head_contact = '<link rel="stylesheet" type="text/css" href="templates/contact.tpl.css">';
+
+//Search
+    $head_search_preload = '<link rel="preload" href="templates/search.tpl.css" as="style">';
+    $head_search = '<link rel="stylesheet" type="text/css" href="templates/search.tpl.css">';
 ?>
 
 <!-- Font-Awesome -->
