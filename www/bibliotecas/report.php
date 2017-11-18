@@ -65,7 +65,7 @@
             $mail -> CharSet = 'utf-8';
         
             //Message Data
-            $mail -> Subject = "Msg Blog - ".$email_subject;
+            $mail -> Subject = "Notificação pricampos.blog.br - ".$email_subject;
             $mail -> Body .= " Nome do Contato: ".$nickname."<br>";
             $mail -> Body .= " E-mail: ".$email_from."<br>";
             $mail -> Body .= " Assunto: ".$email_subject."<br>";
