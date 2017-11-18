@@ -20,11 +20,13 @@
 <input type="checkbox" id="btn-menu-resp" name="btn-menu-resp">
 <div class="div-menu-resp" id="div-menu-resp" name="div-menu-resp">
     <label for="btn-menu-resp" class="btn-menu-resp"><i class="fa fa-bars fa-2x" aria-hidden="true"></i></label>
-    <!-- Search box -->
-    <form class="form-search-resp" id="form-search-resp" name="form-search-resp" method="get" action="www.pricampos.blog.br/modulos/search.php">
-        <label for="nm-search">
-            <input type="search" class="box-search-input-resp" id="box-search-input-resp" name="box-search-input-resp" placeholder="Buscar no blog...">
-            <button type="submit" class="btn-search-resp" id="btn-search-resp" name="btn-search-resp">&nbsp;<i class="fa fa-search" aria-hidden="true"></i></button>
+    <!-- Search box Responsive -->
+    <form class="form-search-resp" id="form-search-resp" name="form-search-resp" method="get" action="/pricampos.blog.br/www/search.php">
+        <label for="box-search-resp">
+            <input type="search" class="box-search-input-resp" id="box-search-resp" name="box-search-resp" placeholder="Buscar no blog..." required>
+        </label>
+        <label for="btn-search-resp">
+                <button type="submit" class="btn-search-responsive" id="btn-search-resp" name="btn-search-resp">&nbsp;<i class="fa fa-search" aria-hidden="true"></i></button>
         </label>
     </form>
 </div>
@@ -81,10 +83,12 @@
             </li>
             <!-- Search box - Descktop -->
             <li class="li-menu" id="search-descktop" name="search-descktop">
-                <form class="form-search" id="form-search" name="form-search" method="get" action="http://127.0.0.1:81/pricampos/www/modulos/search.php">
+                <form class="form-search" id="form-search" name="form-search" method="get" action="/pricampos.blog.br/www/search.php">
                     <label for="box-search">
-                        <input type="search" class="box-search-input" id="box-search" name="box-search" placeholder="Buscar no blog...">
-                        <button type="submit" class="btn-search" id="btn-search" name="btn-search"><i class="fa fa-search fa-lg" aria-hidden="true"></i></button>
+                        <input type="search" class="box-search-input-descktop" id="box-search" name="box-search" placeholder="Buscar no blog..." required>
+                    </label>
+                    <label for="btn-search">
+                        <button type="submit" class="btn-search-descktop" id="btn-search" name="btn-search"><i class="fa fa-search fa-lg" aria-hidden="true"></i></button>
                     </label>
                 </form>
             </li>

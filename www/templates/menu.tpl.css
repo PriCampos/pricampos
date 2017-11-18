@@ -20,7 +20,7 @@ html {
     float: right;
 }
 
-.box-search-input, .box-search-input-resp {
+.box-search-input-resp, .box-search-input-descktop {
     border-bottom: solid 1px #E8DFDF;
     padding-bottom: 2px;
     background-color: transparent;
@@ -33,12 +33,12 @@ html {
     color: #E8DFDF;
 }
 
-.btn-search:hover, .btn-search-resp:hover {
+.btn-search-descktop:hover, .btn-search-responsive:hover {
     color: #fff;
     cursor: pointer;
 }
 
-.box-search, .btn-search, .btn-search-resp, .box-search-resp {
+.box-search-input, .btn-search-descktop, .btn-search-responsive, .box-search-resp {
     border-color: transparent;
     background-color: transparent;
     outline: none;
