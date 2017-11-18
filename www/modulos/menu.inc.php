@@ -1,32 +1,15 @@
-<!-- Access Statistics -->
-<!-- Piwik -->
-<script type="text/javascript">
-  var _paq = _paq || [];
-  _paq.push(['trackPageView']);
-  _paq.push(['enableLinkTracking']);
-  (function() {
-    var u="//cluster-piwik.locaweb.com.br/";
-    _paq.push(['setTrackerUrl', u+'piwik.php']);
-    _paq.push(['setSiteId', 19513]);
-    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
-  })();
-</script>
-<noscript><p><img src="//cluster-piwik.locaweb.com.br/piwik.php?idsite=19513" style="border:0;" alt="" /></p></noscript>
-<!-- End Piwik Code -->
-
 <!-- Menu e Box Search Responsive -->
 <span id="top" name="top"></span>
 <input type="checkbox" id="btn-menu-resp" name="btn-menu-resp">
 <div class="div-menu-resp" id="div-menu-resp" name="div-menu-resp">
     <label for="btn-menu-resp" class="btn-menu-resp"><i class="fa fa-bars fa-2x" aria-hidden="true"></i></label>
     <!-- Search box Responsive -->
-    <form class="form-search-resp" id="form-search-resp" name="form-search-resp" method="get" action="/pricampos.blog.br/www/search.php">
+    <form class="form-search-resp" id="form-search-resp" name="form-search-resp" method="POST"  action="/pricampos.blog.br/www/search.php">
         <label for="box-search-resp">
-            <input type="search" class="box-search-input-resp" id="box-search-resp" name="box-search-resp" placeholder="Buscar no blog..." required>
+            <input type="search" class="box-search-input-resp" id="box-search-resp" name="box-search" placeholder="Buscar no blog..." >
         </label>
         <label for="btn-search-resp">
-                <button type="submit" class="btn-search-responsive" id="btn-search-resp" name="btn-search-resp">&nbsp;<i class="fa fa-search" aria-hidden="true"></i></button>
+                <button type="submit" class="btn-search-responsive" id="btn-search-resp" name="btn-search">&nbsp;<i class="fa fa-search" aria-hidden="true"></i></button>
         </label>
     </form>
 </div>
@@ -83,7 +66,7 @@
             </li>
             <!-- Search box - Descktop -->
             <li class="li-menu" id="search-descktop" name="search-descktop">
-                <form class="form-search" id="form-search" name="form-search" method="get" action="/pricampos.blog.br/www/search.php">
+                <form class="form-search" id="form-search" name="form-search" method="POST" action="/pricampos.blog.br/www/search.php">
                     <label for="box-search">
                         <input type="search" class="box-search-input-descktop" id="box-search" name="box-search" placeholder="Buscar no blog..." required>
                     </label>
