@@ -38,20 +38,18 @@
         <section class="about-me">
             <h1 class="title-about-me">A Little Bit About Me...</h1>
             
-            <h1 class="title-name">Priscila Campos</h1>
+            <h1 class="title-name">Priscila Campos, 33 anos</h1>
             
             <h4 class="title-address"><i class="fa fa-map-marker" aria-hidden="true"></i> Ribeirão das Neves, MG</h4>
 
            
-            <p>Sou graduanda do curso de Engenharia da Computação, no Centro Universitário UNA. E desde 2012, atuo na área de Teste de Software.</p>
-
-            <p>Meus hobbies favoritos são desenhar, crochetar, escrever frases que me marcam e alguns pensamentos, correr, pedalar, curti os meus catioros, observar a natureza, ouvir o Pe. Fábio de Melo, assistir séries e filmes.</p>
-
-            <p>Busco aprendizado, me tornar uma das melhores profissionais da minha área e ter uma ideia que melhore a vida de outras pessoas, algo que dê desígnio aos estudos.</p>
-                    
-            <p>Acredito no poder de expandir as nossas ideias por meio do desenvolvimento conjunto e propósitos pluralistas.</p>
+            <p>Sou graduanda do curso de Engenharia da Computação, pelo Centro Universitário UNA e desde 2012, atuo na área de Teste de Software.</p>
             
-            <p>Decidi fazer o blog, porquê quando compartilho um estudo, tenho mais atenção aos detalhes diante do desafio de replicá-lo. E também por ser um meio de obter feedback e melhorar a escrita. Também considero válido um acervo on-line do que tenho estudado, seja para uso próprio e para outros que buscam um conteúdo com uma outra percepção ou linguagem.</p>
+            <p>Estou em busca de aprendizado constante e ações que tornem o mercado tecnológico mais inclusivo.</p>
+
+            <p>Curto: desenhar, crochetar, anotar as frases que me marcam, correr, pedalar, natureza, seriados, filmes, viajar, rock, MPB, jazz, massas...</p>
+            
+            <p>Decidi fazer esse blog, porquê quando compartilho um estudo, tenho mais atenção aos detalhes diante da responsabilidade de replicar à informação, também por ser um meio de obter feedback e melhorar a escrita. Outro ponto legal é ter um acervo on-line do que tenho estudado; seja para uso próprio, ou para outras pessoas que buscam um conteúdo com uma outra percepção, ou linguagem.</p>
 
             <p> Muito obrigada, por em algum momento, fazer parte deste projeto! Um abraço!</p>
                     
