@@ -21,7 +21,7 @@ html {
 }
 
 .box-search-input-resp, .box-search-input-descktop {
-    border-bottom: solid 1px #fff;
+    border-bottom: solid 1px #F1F8E9;
     padding-bottom: 2px;
     background-color: transparent;
     border-top: transparent;
@@ -30,7 +30,7 @@ html {
     outline: none;
     font-style: italic;
     font-size: 75%;
-    color: #fff;
+    color: #F1F8E9;
 }
 
 .btn-search-descktop:hover, .btn-search-responsive:hover {
@@ -43,12 +43,12 @@ html {
     background-color: transparent;
     outline: none;
     font-style: italic;
-    color: #fff;
+    color: #F1F8E9;
     font-size: 75%;
 }
 
 ::-webkit-input-placeholder {
-   color: #fff;
+   color: #F1F8E9;
 }
 
 /* Menu */
@@ -58,7 +58,7 @@ html {
 
 .menu-main {
     font-family: 'Open Sans', sans-serif;
-    background-color: #000000;
+    background-color: #202124;
     width: 100%;
     box-sizing: border-box;
 }
@@ -90,8 +90,8 @@ html {
     padding-top: 9px;
     padding-bottom: 9px;
     text-decoration: none;
-    color: #fff;
-    background-color: #000000;
+    color: #F1F8E9;
+    background-color: #202124;
     font-size: 80%;
 }
 
@@ -102,15 +102,16 @@ html {
 
 .div-category {
     width: 100%;
-    background-color: white;
+    background-color: #F1F8E9;
     border-bottom: 1px solid #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,.5);
 }
 
 .ul-category {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    background-color: white;
+    background-color: #F1F8E9;
     list-style: none;
     padding-top: 30px;
     padding-bottom: 18px;
@@ -169,7 +170,7 @@ html {
     padding-bottom: 10px;
     box-sizing: border-box;
     padding-left: 1%;
-    color: #fff;
+    color: #F1F8E9;
     text-align: left;
 }
 
@@ -223,10 +224,10 @@ html {
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
-        background-color: #000000;
+        background-color: #202124;
         width: 100%;
         height: 50px;
-        border-bottom: solid 0.8px #000000;
+        border-bottom: solid 0.8px #202124;
     }
     #btn-menu-resp:checked ~.menu{
         margin-left: 0;
@@ -281,9 +282,9 @@ html {
         text-align: left;
         text-decoration: none;
         padding-left: 35px;
-        border-left: 4px solid #fff;
+        border-left: 4px solid #F1F8E9;
         border-radius: 15px;
-        color: #fff;
+        color: #F1F8E9;
         font-family: : 'Open Sans', sans-serif;
         font-size: 80%;
     }
