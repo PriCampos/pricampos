@@ -99,3 +99,5 @@
 <!-- Font-Googleapis -->
 <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One|Open+Sans|Open+Sans+Condensed:300|Quicksand" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Cutive+Mono" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Nanum+Gothic+Coding" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,400italic|Roboto+Mono:400,500|Material+Icons" rel="stylesheet">
