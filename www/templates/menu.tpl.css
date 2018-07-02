@@ -21,7 +21,7 @@ html {
 }
 
 .box-search-input-resp, .box-search-input-descktop {
-    border-bottom: solid 1px #E8DFDF;
+    border-bottom: solid 1px #fff;
     padding-bottom: 2px;
     background-color: transparent;
     border-top: transparent;
@@ -30,7 +30,7 @@ html {
     outline: none;
     font-style: italic;
     font-size: 75%;
-    color: #E8DFDF;
+    color: #fff;
 }
 
 .btn-search-descktop:hover, .btn-search-responsive:hover {
@@ -43,12 +43,12 @@ html {
     background-color: transparent;
     outline: none;
     font-style: italic;
-    color: #E8DFDF;
+    color: #fff;
     font-size: 75%;
 }
 
 ::-webkit-input-placeholder {
-   color: #E8DFDF;
+   color: #fff;
 }
 
 /* Menu */
@@ -58,7 +58,7 @@ html {
 
 .menu-main {
     font-family: 'Open Sans', sans-serif;
-    background-color: #8E9CA5;
+    background-color: #000000;
     width: 100%;
     box-sizing: border-box;
 }
@@ -90,8 +90,8 @@ html {
     padding-top: 9px;
     padding-bottom: 9px;
     text-decoration: none;
-    color: #E8DFDF;
-    background-color: #8E9CA5;
+    color: #fff;
+    background-color: #000000;
     font-size: 80%;
 }
 
@@ -103,7 +103,7 @@ html {
 .div-category {
     width: 100%;
     background-color: white;
-    border-bottom: 1px solid #CCCECB;
+    border-bottom: 1px solid #fff;
 }
 
 .ul-category {
@@ -169,12 +169,12 @@ html {
     padding-bottom: 10px;
     box-sizing: border-box;
     padding-left: 1%;
-    color: #E8DFDF;
+    color: #fff;
     text-align: left;
 }
 
 .btn-menu-resp:hover {
-    color: white;
+    color: #fff;
     cursor: pointer;
 }
 
@@ -223,10 +223,10 @@ html {
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
-        background-color: #8E9CA5;
+        background-color: #000000;
         width: 100%;
         height: 50px;
-        border-bottom: solid 0.8px #7E8C94;
+        border-bottom: solid 0.8px #000000;
     }
     #btn-menu-resp:checked ~.menu{
         margin-left: 0;
@@ -281,15 +281,15 @@ html {
         text-align: left;
         text-decoration: none;
         padding-left: 35px;
-        border-left: 4px solid #E8DFDF;
+        border-left: 4px solid #fff;
         border-radius: 15px;
-        color: #E8DFDF;
+        color: #fff;
         font-family: : 'Open Sans', sans-serif;
         font-size: 80%;
     }
     .a-submenu-resp:hover {
-        color: white;
-        border-left: 4px solid white;
+        color: #fff;
+        border-left: 4px solid #fff;
         cursor: pointer;
     }
     
