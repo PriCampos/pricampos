@@ -38,7 +38,7 @@
         <section class="section-contact">
             <img class="img-title-contact" src="/pricampos.blog.br/www/galeria/banner/contact.png" />
             
-            <h1 class="initial-message">Quer retirar alguma dúvida, fazer sugestões, relatar algum erro no blog ou, simplesmente conversar sobre a vida? Não hesite em me contactar.</h1>
+            <h1 class="initial-message">Quer retirar alguma dúvida, fazer sugestões, relatar algum erro no blog, ou simplesmente conversar sobre a vida? Contate-me.</h1>
             
             <form class="form-contact" method="post" action="/pricampos.blog.br/www/bibliotecas/report.php">
                 <label for="nickname">
